@@ -20,7 +20,7 @@
     "url": "https://github.com/wxjbnu/wxj-cli/issues"
   },
   "homepage": "https://github.com/wxjbnu/wxj-cli#readme",
-  "devDependencies": {
+  "dependencies": {
     "co": "^4.6.0",
     "commander": "^2.11.0",
     "update-notifier": "^2.2.0"
