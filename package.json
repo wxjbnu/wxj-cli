@@ -1,0 +1,28 @@
+{
+  "name": "wxj-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "wxj": "bin/wxj"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxjbnu/wxj-cli.git"
+  },
+  "keywords": [
+    "wxj"
+  ],
+  "author": "wxj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxjbnu/wxj-cli/issues"
+  },
+  "homepage": "https://github.com/wxjbnu/wxj-cli#readme",
+  "devDependencies": {
+    "co": "^4.6.0",
+    "commander": "^2.11.0",
+    "update-notifier": "^2.2.0"
+  }
+}
