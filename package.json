@@ -1,10 +1,10 @@
 {
   "name": "wxj-cli",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "description": "",
   "main": "index.js",
   "bin": {
-    "wxj-cli": "./bin/wxj.js"
+    "wxj-cli": "./lib/wxj.js"
   },
   "scripts": {},
   "repository": {
