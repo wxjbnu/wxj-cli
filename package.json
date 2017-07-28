@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "wxj": "bin/wxj"
+    "wxj-cli": "bin/wxj"
   },
   "scripts": {},
   "repository": {
