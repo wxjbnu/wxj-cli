@@ -1,6 +1,6 @@
 {
   "name": "wxj-cli",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -32,6 +32,8 @@
     "commander": "^2.11.0",
     "update-notifier": "^2.2.0",
     "colors": "^1.1.2",
-    "download-github-repo": "^0.1.3"
+    "download-github-repo": "^0.1.3",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "^0.0.1-security"
   }
 }
