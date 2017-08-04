@@ -12,3 +12,10 @@
 - wxj-cli create (template) (name)
 - cd (name)
 - wxj-cli build
+
+
+### template编译内容(demo)
+- 将@click变为wx:tap
+- 将<repeat w:for="nameArr" w:item="name" w:index="i" class="toggle">{{name}}</repeat>编译为<repeat wx:for="(name,i) in nameArr" class="toggle">{{name}}</repeat>
+- 将`<div w:class="{hello:isHe}"></div>`转换
+- 将`<div w:style="{'font-size':'12px','color':'#eee'}"></div>`转换
