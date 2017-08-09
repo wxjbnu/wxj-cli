@@ -19,3 +19,8 @@
 - 将<repeat w:for="nameArr" w:item="name" w:index="i" class="toggle">{{name}}</repeat>编译为<repeat wx:for="(name,i) in nameArr" class="toggle">{{name}}</repeat>
 - 将`<div w:class="{hello:isHe}"></div>`转换
 - 将`<div w:style="{'font-size':'12px','color':'#eee'}"></div>`转换
+
+
+### 转换内容
+- compontent 转换需要通过key和name对应?或者直接传props
+- .js文件通过字符串匹配
